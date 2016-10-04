@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	height: 910px;
+	width: 980px;
+    margin: 0 auto;
+}
+.header{
+	width: 980px;
+	height: 30px;
+	border-bottom: 1px solid #dcdcdc;
+	background-color: #f5f5f5;
+}
+.header-content{margin-right: 8px;}
+.header a{
+	font-family:宋体;
+	font-size:13px;
+    color: #8f8f8f;
+    text-decoration:none;
+    float: right;
+    line-height: 30px;
+}
+.header a:hover{
+	color: red;
+	font-weight: bolder;
+}
+.header img{
+	width: 5px;
+	height: 7px;
+	float: right;
+	margin:12px 11px 12px 11px;
+}
+.logo-container{
+	width:980px;
+	height:80px;
+}
+.logo img{
+     height: 80px;
+}
+.tel p{
+	color:#8f8f8f;
+	font-family:宋体;
+	font-size: 12px;
+	float: right;
+	letter-spacing:2px;
+}
+.tel p span{
+	color: red;
+	font-size: 16px;
+}
+.tel img{
+	    float: right;
+        margin-right: 50px;
+        margin-top: -3px;
+}
+.logo,.tel{
+	display: inline-block;
+}
+.tel{
+  float: right;
+  margin-top:30px;
+}
+.nav{
+	height: 40px;
+	width: 970px;
+	border-top:1px solid #f5f5f5;
+	border-bottom:0.5px solid #f5f5f5;
+	margin: 0 auto;
+	background-color: #766d66;
+	border-radius: 4px;
+	-moz-border-radius:4px;             /*  兼容火狐浏览器*/
+　　-webkit-border-radius:4px;         /*   兼容chrome safari*/
+    -ms-border-radius:4px;                  /*兼容IE浏览器*/
+}
+.nav ul li{
+	list-style:none;
+	float: left;
+}
+.nav ul li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 宋体;
+	font-size: 16px;
+	line-height: 40px;
+	margin-right:52px;
+}
+.nav ul li a:hover{
+	color: red;
+	font-weight: bolder;
+}
+.nav span{height: 20px;}
+.input-content{
+	    display: inline-block;
+	    width: 200px;
+        height: 20px;
+        margin-top: 9px;
+}
+.nav img{
+	    display: inline-block;
+	    position: absolute;
+        margin-left: -24px;
+        height: 20px;
+        margin-top: 10px;
+}
+.banner{
+	width: 970px;
+	height: 314px;
+	margin: 0 auto;
+}
+
+.main-container{
+	width: 970px;        /*什么设置了得不到体现？而使用174行的css就可以得到体现*/
+	margin: 10px auto;
+	
+}
+.title-left{
+	width: 200px;
+	height: 36px;
+	border-top:1px solid #e8e9eb;
+	border-right:1px solid #e8e9eb;
+	border-left:1px solid #e8e9eb;
+	border-bottom:2px solid #e8e9eb;
+	background-color: #f6f6f6;
+}
+.title-left h2,.title-right h2{
+	font-family:宋体;
+	font-size: 14px;
+	font-weight:bold;
+	line-height: 36px;
+	margin-left: 20px;
+}
+.left-content{
+	width: 195px;
+	height: 350px;
+	border-right:1px solid #e8e9eb;
+	border-left:1px solid #e8e9eb;
+	padding-top: 10px;
+	padding-left: 5px;
+	float: left;
+}
+.subNav{
+	clear:both;
+}
+.subNav ul li{
+	list-style: none;
+	height: 32px;
+}
+.subNav ul li a{
+	font-size: 14px;
+	color:#000;
+	text-decoration: none;
+	line-height: 32px;
+}
+.subNav ul li a:hover{
+	color: #982672;
+}
+.subNav ul li a img{
+	vertical-align: 5%;
+	margin-right: 5px;
+}
+
+.left,.right{
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.title-right{
+	width: 762px;
+	height: 36px;
+	border-top:1px solid #e8e9eb;
+	border-right:1px solid #e8e9eb;
+	border-left:1px solid #e8e9eb;
+	border-bottom:2px solid red;
+}
+.right-content{
+	width: 757px;
+	height: 350px;
+	border-right:1px solid #e8e9eb;
+	border-left:1px solid #e8e9eb;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.news ul li{
+	list-style: none;
+	height: 25px;
+	border-bottom: 1px dashed #e8e9eb;
+}
+.news ul li a{
+	text-decoration: none;
+	color: #000;
+	font-family:宋体;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.news ul li a:hover{
+	color: #982672;
+}
+.news ul li time{
+	float: right;
+	color: #e8e9e0;
+	margin-right: 10px;
+	font-family:宋体;
+	font-size: 12px;
+	line-height: 25px;
+}
+.news ul li a img{
+	vertical-align: -10%;
+	margin-right: 5px;
+}
+.btn{
+	width: 557px;
+	height: 40px;
+	margin: 30px auto;
+}
+.btn form{
+	height: 50px;
+	width: 458px;
+	margin: auto;
+}
+.btn form button{
+	width:50px;
+	height: 25px; 
+	background-color: #fff;
+	border:1px solid #e8e9eb;
+}
+.foot{
+	width: 980px;
+	height: 180px;
+	background-color: #e8e8e8;
+	clear: both;
+}
+.service{
+	width: 114px;
+	float: left;
+	padding: 20px 40px;
+}
+.service ul{
+	width: 100px;
+	text-align: center;
+}
+.service ul li{
+	list-style: none;
+	height: 30px;
+	width: 100px;
+}
+.service ul li a{
+	font-family: 宋体;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+.service ul li a:hover{
+	color: #982672;
+}
+.line{
+	position: relative;
+    top: 20px;
+    float: left;
+}
+.foot-weixin{
+	width: 100px;
+	text-align: center;
+}
+.foot-weixin img{
+	float: left;
+}
+.service .foot-weixin a{
+	color: #000;
+	font-size: 14px;
+	font-family: 宋体;
+	text-decoration: none;
+	float: left;
+	position: relative;
+    top: 15px;
+}
+.service>img{
+	margin-top: 10px;
+}

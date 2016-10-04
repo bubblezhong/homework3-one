@@ -1,0 +1,22 @@
+
+/*.container-slider{
+	width: 970px;
+	height:300px;
+	margin: 0 auto; 
+}*/
+ul{
+	margin:0;
+	/*padding:0 0 20px 30px;*/
+}
+
+.first{
+	background:url("../images/ad2.jpg")  no-repeat;
+	height: 300px;
+}
+.second{height: 300px;
+	background:url("../images/ad3.jpg")  no-repeat;
+}
+.third{height: 300px;
+	background:url("../images/ad4.jpg") no-repeat;
+}
+
